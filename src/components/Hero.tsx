@@ -5,7 +5,7 @@ import { Terminal, Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 const Hero = () => {
   const [text, setText] = useState("");
   const [showCursor, setShowCursor] = useState(true);
-  const fullText = "Full Stack Developer";
+  const fullText = "A Full Stack Developer";
 
   useEffect(() => {
     let index = 0;
@@ -46,7 +46,7 @@ const Hero = () => {
 
         {/* Main Title */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
-          <span className="text-foreground">Hi, I'm</span>
+          <span className="text-foreground">Hi, I'm Abdullah Odulate</span>
           <br />
           <span className="text-primary glow-text font-mono">
             {text}
@@ -82,23 +82,23 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex gap-6 justify-center mb-16">
           <a 
-            href="https://github.com" 
+            href="https://github.com/abdul-luh" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Github className="w-6 h-6" />
           </a>
-          <a 
+          {/* <a 
             href="https://linkedin.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Linkedin className="w-6 h-6" />
-          </a>
+          </a> */}
           <a 
-            href="mailto:contact@example.com"
+            href="mailto:abdulluhodulate@gmail.com"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Mail className="w-6 h-6" />

@@ -32,7 +32,7 @@ const Contact = () => {
                 <Mail className="w-8 h-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Email</h3>
                 <a href="mailto:contact@example.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  contact@example.com
+                  abdulluhodulate@gmail.com
                 </a>
               </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
                 <Phone className="w-8 h-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Phone</h3>
                 <a href="tel:+1234567890" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                  +234 703382 4496
                 </a>
               </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Location</h3>
                 <p className="text-sm text-muted-foreground">
-                  San Francisco, CA
+                  Lagos, Nigeria
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Contact = () => {
               className="bg-primary text-primary-foreground hover:bg-primary/90 glow-border font-mono text-lg px-12 py-6 mt-8"
               asChild
             >
-              <a href="mailto:contact@example.com">
+              <a href="mailto:abdulluhodulate@gmail.com">
                 Send a Message
               </a>
             </Button>

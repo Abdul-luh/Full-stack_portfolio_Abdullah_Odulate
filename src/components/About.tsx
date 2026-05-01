@@ -60,10 +60,10 @@ const About = () => {
                 <span className="text-primary">const</span> developer <span className="text-primary">=</span> {"{"}
               </div>
               <div className="pl-4 space-y-2 font-mono text-sm">
-                <div><span className="text-accent">name:</span> <span className="text-foreground">"John Doe"</span>,</div>
+                <div><span className="text-accent">name:</span> <span className="text-foreground">"Abdullah Odulate"</span>,</div>
                 <div><span className="text-accent">role:</span> <span className="text-foreground">"Full Stack Developer"</span>,</div>
                 <div><span className="text-accent">experience:</span> <span className="text-foreground">"5+ years"</span>,</div>
-                <div><span className="text-accent">location:</span> <span className="text-foreground">"San Francisco, CA"</span>,</div>
+                {/* <div><span className="text-accent">location:</span> <span className="text-foreground">"San Francisco, CA"</span>,</div> */}
                 <div><span className="text-accent">available:</span> <span className="text-primary">true</span></div>
               </div>
               <div className="font-mono text-sm text-muted-foreground mt-4">{"}"}</div>
