@@ -2,51 +2,92 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NovaCartImage from "../../public/Screenshot from 2026-05-02 05-08-19.png";
 import EcommerceImage from "../../public/Screenshot from 2026-05-03 05-30-35.png"
-
+import MyGymPlannerImage from "../../public/image.png"
 const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
       description:
-        "Full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built for scalability and performance.",
+        "A modern, full-stack food delivery and commerce platform built with Next.js 14 (App Router), TypeScript, Tailwind CSS, Prisma ORM, NextAuth.js, PostgreSQL, and Zustand. This is a senior-level, production-ready architecture featuring role-based access control, real-time cart management, Stripe payment integration, and separate dashboards for customers, vendors, and administrators.",
       image: EcommerceImage,
-      tech: ["React", "Next.js", "PostgreSQL", "Stripe", "Redis"],
-      github: "https://github.com/Abdul-luh/Food-website",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "Tailwind CSS",
+        "Prisma",
+        "NextAuth.js",
+        "Zod",
+        "PostgreSQL",
+        "Stripe",
+        "lucide-react",
+        // "Redis"
+      ],
+      github: "https://github.com/Abdul-luh/best-eats-food-delivery",
       live: "https://food-website-tau-seven.vercel.app/",
       featured: true,
     },
     {
-      title: "AI Code Assistant",
+      title: "My Gym Planner",
       description:
-        "VS Code extension powered by machine learning that provides intelligent code suggestions and automated refactoring capabilities.",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
-      tech: ["TypeScript", "Python", "TensorFlow", "Docker"],
-      github: "https://github.com",
-      live: "https://example.com",
+        "A state-of-the-art, production-grade AI workout planning platform. Build your perfect physique with plans tailored specifically to your body, goals, and lifestyle, backed by a resilient and high-performance backend architecture.",
+      image: MyGymPlannerImage,
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "NextAuth.js",
+        "PostgreSQL",
+        "Redis",
+        "MongoDB Atlas",
+        "BullMQ",
+        "Pino",
+        "Sentry",
+      ],
+      github: "https://github.com/Abdul-luh/my-gym-planner",
+      live: "https://my-gym-planner.vercel.app/",
       featured: true,
     },
+    // {
+    //   title: "AI Code Assistant",
+    //   description:
+    //     "VS Code extension powered by machine learning that provides intelligent code suggestions and automated refactoring capabilities.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+    //   tech: ["TypeScript", "Python", "TensorFlow", "Docker"],
+    //   github: "https://github.com",
+    //   live: "https://example.com",
+    //   featured: true,
+    // },
     {
-      title: "Real-Time Analytics Dashboard",
+      title: "NovaCart Analytics Dashboard",
       description:
-        "Enterprise analytics platform processing millions of events daily with interactive visualizations and custom reporting.",
+        "A high-fidelity, futuristic, and fully multi-page analytics dashboard for **NovaCart** — a digital marketplace platform. Built with a premium SaaS aesthetic using glassmorphism, neon accents, and real-time simulated data across eight dedicated analytical views.",
       image: NovaCartImage,
-      tech: ["vite", "react", "tailwindcss", "recharts", "typescript"],
+      tech: [
+        "React",
+        "vite",
+        "tailwindcss",
+        "recharts",
+        "typescript",
+        "lucide-react",
+      ],
       github: "https://github.com/Abdul-luh/nova-cart.git",
       live: "https://nova-cart-plum.vercel.app/",
       featured: true,
     },
-    {
-      title: "DevOps Automation Suite",
-      description:
-        "CLI tool and web interface for automating deployment pipelines, infrastructure provisioning, and monitoring.",
-      image:
-        "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=600&=crop",
-      tech: ["Go", "Kubernetes", "Terraform", "React"],
-      github: "https://github.com",
-      live: "https://example.com",
-      featured: false,
-    },
+    // {
+    //   title: "DevOps Automation Suite",
+    //   description:
+    //     "CLI tool and web interface for automating deployment pipelines, infrastructure provisioning, and monitoring.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&h=600&=crop",
+    //   tech: ["Go", "Kubernetes", "Terraform", "React"],
+    //   github: "https://github.com",
+    //   live: "https://example.com",
+    //   featured: false,
+    // },
   ];
 
   return (
