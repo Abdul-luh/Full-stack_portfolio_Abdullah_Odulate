@@ -1,4 +1,4 @@
-User-agent: Googlebot
+/home/abdullah/Downloads/ChatGPT Image May 2, 2026, 01_11_43 PM.pngUser-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
