@@ -30,7 +30,9 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/95 backdrop-blur-md border-b border-primary/20" : "bg-transparent"
+        scrolled
+          ? "bg-background/95 backdrop-blur-md border-b border-primary/20"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -59,7 +61,7 @@ const Navigation = () => {
               className="bg-transparent border border-primary text-primary hover:bg-primary/10 font-mono"
               asChild
             >
-              <a href="/resume.pdf" download>
+              <a href="/Abdullah Odulate fullstack CV.pdf" download>
                 Resume
               </a>
             </Button>
