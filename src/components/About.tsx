@@ -5,22 +5,22 @@ const About = () => {
     {
       icon: <Code2 className="w-8 h-8" />,
       title: "Frontend Development",
-      description: "React, TypeScript, Next.js, Tailwind CSS",
+      description: "React, TypeScript, Next.js, Tailwind CSS, Shadcn/UI",
     },
     {
       icon: <Database className="w-8 h-8" />,
       title: "Backend Development",
-      description: "Node.js, Python, PostgreSQL, MongoDB",
+      description: "Node.js, Express.js, PostgreSQL, MongoDB, Prisma, Supabase",
     },
     {
       icon: <Globe className="w-8 h-8" />,
-      title: "Cloud & DevOps",
-      description: "AWS, Docker, CI/CD, Kubernetes",
+      title: "AI & Modern Tools",
+      description: "Mistral AI, Redis, BullMQ, Git, Docker, CI/CD, Vercel",
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Performance",
-      description: "Optimization, Scalability, Best Practices",
+      title: "Core Competencies",
+      description: "Performance Optimization, SEO, System Thinking, Problem Solving",
     },
   ];
 
@@ -62,7 +62,7 @@ const About = () => {
               <div className="pl-4 space-y-2 font-mono text-sm">
                 <div><span className="text-accent">name:</span> <span className="text-foreground">"Abdullah Odulate"</span>,</div>
                 <div><span className="text-accent">role:</span> <span className="text-foreground">"Full Stack Developer"</span>,</div>
-                <div><span className="text-accent">experience:</span> <span className="text-foreground">"5+ years"</span>,</div>
+                <div><span className="text-accent">experience:</span> <span className="text-foreground">"3+ years"</span>,</div>
                 {/* <div><span className="text-accent">location:</span> <span className="text-foreground">"San Francisco, CA"</span>,</div> */}
                 <div><span className="text-accent">available:</span> <span className="text-primary">true</span></div>
               </div>

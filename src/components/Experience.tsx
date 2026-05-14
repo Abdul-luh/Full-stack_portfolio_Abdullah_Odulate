@@ -3,37 +3,37 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovators Inc.",
-      period: "2022 - Present",
+      title: "Frontend Developer (Contract)",
+      company: "SK Projects",
+      period: "2025 - Present",
       description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response time by 60% through optimization",
-        "Mentored junior developers and conducted code reviews",
+        "Leading frontend development for Klukoo, a specialized medical staffing platform",
+        "Developing the ORR platform for streamlined logistics and transportation management",
+        "Implementing high-performance, responsive UIs using React, TypeScript, and Tailwind CSS",
       ],
-      tech: ["React", "Node.js", "AWS", "PostgreSQL"],
+      tech: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Co.",
-      period: "2020 - 2022",
+      title: "Full Stack Developer (Self-employed)",
+      company: "Key Projects",
+      period: "2023 - 2024",
       description: [
-        "Built and deployed 15+ client projects from scratch",
-        "Implemented CI/CD pipelines reducing deployment time by 70%",
-        "Collaborated with designers to create pixel-perfect UIs",
+        "Architected and deployed 'My Gym Planner', an AI-powered fitness SaaS platform",
+        "Built 'Best Eats', a multi-vendor food commerce platform with Stripe integration",
+        "Engineered real-time analytics dashboards and robust backend systems using Prisma and PostgreSQL",
       ],
-      tech: ["Vue.js", "Python", "Docker", "MongoDB"],
+      tech: ["Next.js", "Node.js", "PostgreSQL", "Prisma", "Redis", "Mistral AI"],
     },
     {
       title: "Frontend Developer",
-      company: "Startup Labs",
-      period: "2019 - 2020",
+      company: "Freelance / Learning",
+      period: "2021 - 2022",
       description: [
-        "Developed responsive web applications using modern frameworks",
-        "Improved website performance metrics by 45%",
-        "Integrated third-party APIs and payment gateways",
+        "Started professional journey by building custom web solutions for local clients",
+        "Earned certifications in Frontend Web Development and Computer Studies",
+        "Mastered the fundamentals of HTML, CSS, JavaScript, and modern UI design principles",
       ],
-      tech: ["React", "TypeScript", "Redux", "Tailwind"],
+      tech: ["HTML5", "CSS3", "JavaScript", "React", "Figma"],
     },
   ];
 
